@@ -45,7 +45,7 @@
 
 /* Education, Career, Projects*/
 .navbar {
-  display: flexbox;
+  display: flex;
   position: absolute;
   left: 60px;
   top: 18px;
@@ -198,8 +198,8 @@ a:visited {
 }
 
 .pages {
-  /*background-image: url(https://i.ibb.co/87GbbFP/2799006.jpg);*/
-  background-color: black; /*DELETE THIS WHEN NOT AT WORK*/
+  background-image: url(https://i.ibb.co/87GbbFP/2799006.jpg);
+  /*background-color: black; DELETE THIS WHEN NOT AT WORK*/
   background-size: cover;
   -webkit-animation: slidein 90s;
   animation: slidein 90s;
@@ -312,6 +312,10 @@ section {
   height: 130vh;
 }
 
+.page1ED {
+  height: 200vh;
+}
+
 /*SITE UNDER CONSTRUCTION---------------------------------------------------------------*/
 
 .construction {
@@ -339,6 +343,31 @@ section {
 
 /*EDUCATION PAGE------------------------------------------------------------------------*/
 
+.tabbar {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.tabbar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.tabbar a:hover {
+  background-color: hsl(0, 0%, 15%);
+}
+
+.tabbar li {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
 .ASUcourseworkContainer {
   display: flex;
   flex-wrap: wrap;
@@ -361,6 +390,7 @@ section {
   border-radius: 40px;
 }
 
+/* COLLAPSABLE TEXT*/
 .intro {
   height: 70px;
   width: 350px;
